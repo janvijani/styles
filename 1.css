@@ -1,0 +1,49 @@
+body {
+     background-image:url("3.jpg");
+     margin-left: 40px;
+     margin-right:40px;
+    
+     
+}
+
+h1 {
+    color: #efebe9;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 2.7em;
+    background-color:#ef5350;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+   }
+
+div{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 1.2em;
+   
+   }
+   
+table{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 1.2em;
+    }
+a{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 1.2em;
+	margin: 25px;
+}
+a:hover, a:active {
+	background-color:#b3ffb3;
+}
+
+
+ul     	     {
+		list-style: none;
+		display: block;
+		line-height: 3.333em;
+		padding: 0 10px 0 20px;
+		text-decoration: none;
+	     }
+ul li:before {
+		 content: "\2192";
+	     }

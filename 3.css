@@ -1,0 +1,56 @@
+
+h1 {
+    color: #0793ce;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 2.7em;
+    font-family: 'Lora', serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight:bold;
+   }
+
+div{
+    font-family: 'Lora', serif;
+    color: #33691e;
+	font-size: 1.2em;
+   
+   }
+   
+table{
+    font-family: 'Lora', serif;
+	font-size: 1.2em;
+    }
+a{
+	font-family: 'Lora', serif;
+	font-size: 1.2em;
+	margin: 25px;
+}
+a:hover, a:active {
+	background-color:#b3ffb3;
+}
+
+
+ul     	     {
+		list-style: none;
+		display: block;
+		line-height: 3.333em;sss
+		padding: 0 10px 0 20px;
+		text-decoration: none;
+	     }
+ul li:before {
+		 content: "\2192";
+	     }
+	     
+.content{
+    margin: 30px 20px 30px 20px;
+    border-radius: 25px;
+    background:#ffffff  ;
+    padding: 20px; 
+}
+body {
+     margin-left: 40px;
+     margin-right:40px;
+    background-color:#000;
+     
+}
