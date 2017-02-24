@@ -1,0 +1,49 @@
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <script>
+// Object creation
+var student = new Object();
+student.college = "mpstme";
+student.name = new Object();
+student.name.firstName = "Janvi";
+student.name.lastName = "Jani";
+
+console.log(student);
+console.log("student name is: " 
+  + student.name.firstName +" " + student.name.lastName);
+
+
+
+// Better way: object literal
+var student = {
+  name: "student",
+  name: {
+    firstName: "Janvi",
+    lastName: "Jani ",
+   
+  },
+
+rollno: "student",
+rollno: {
+	 studentrollno: "67",	
+}
+
+ 
+};
+
+console.log(student.name.firstName)
+console.log(student.rollno.studentrollno)
+
+
+
+
+</script>
+  </head>
+<body>
+  <h1><u>JANVI JANI</u> - <U>A067</u></h1>
+</body>
+</html>
