@@ -9,7 +9,7 @@ function onLoad(){
 			// console.log(jsonObj.length);
 			for (var i = 0; i < jsonObj.length; i++) {
 				if (jsonObj[i].name == name) {
-					document.getElementById("demo").innerHTML = "Hello "+name+",<br>WP labs attended: "+jsonObj[i].lab_attendence+"<br>WP labs conducted : "+jsonObj[i].labs_conducted+ "<br> WP lectures attended: "+jsonObj[i].lectures_attended+ "<br> WP lectures conducted: " +jsonObj[i].lectures_conducted+;
+					document.getElementById("demo").innerHTML = "Hello "+name+",<br>WP labs attended: "+jsonObj[i].lab_attendence+"<br>WP labs conducted : "+jsonObj[i].labs_conducted+ "<br> WP lectures attended: "+jsonObj[i].lectures_attended+ "<br> WP lectures conducted: " +jsonObj[i].lectures_conducted;
 					break;
 				}else{
 					flag = 0;
