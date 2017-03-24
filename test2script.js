@@ -20,6 +20,6 @@ function onLoad(){
 			}
 		}
 	};
-	xhttp.open("GET","data.json",true);
+	xhttp.open("GET","test2data.json",true);
 	xhttp.send(null);
 }
