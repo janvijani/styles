@@ -1,0 +1,17 @@
+[
+	{	
+		"name":"name1",
+		"lab_attendence:":4,
+		"labs_conducted":5,
+		"lectures_attended":8,
+		"lectures_conducted":10
+
+	},
+	{	
+		"name":"name2",
+		"lab_attendence:":5,
+		"labs_conducted":5,
+		"lectures_attended":7,
+		"lectures_conducted":10
+	}
+]
